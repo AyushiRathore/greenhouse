@@ -24,4 +24,4 @@ def post():
     return jsonify('success')
 
 if __name__ == "__main__":
-    app.run('192.168.12.84')
+    app.run('https://greenhousemonitoring.herokuapp.com/')
